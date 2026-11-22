@@ -1,2 +1,4 @@
-* **Lecturer (Undergraduate Courses)** — **Catholic University of Maule (UCM)**, Faculty of Engineering, Talca, Chile (2022–2025).
-* **Professional Assistant** — **University of Talca**, Faculty of Engineering, Curicó, Chile (2021–2025).
+* **Research & Laboratory Intern** — **Mineral Processing Laboratory, University of Talca**, Curicó, Chile (2021).
+  * Development of experimental protocols for physicochemical and electrokinetic characterization using Dynamic and Electrophoretic Light Scattering (Anton Paar Litesizer).
+* **Plant Operations Intern** — **Mineral Processing Plant, Minera Paicaví S.A.**, Chile (2020).
+  * Plant supervision and operational monitoring of metallurgical beneficiation processes.

@@ -1,13 +1,13 @@
 name: Sync and Update Publications
 
 on:
-  # 1. Run automatically whenever RMFUENTES.bib or publication scripts are modified
+  # 1. Run automatically whenever RMurga.bib or publication scripts are modified
   push:
     branches:
       - master
-      - Test
+      - main
     paths:
-      - 'files/RMFUENTES.bib'
+      - 'files/RMurga.bib'
       - 'scripts/update_publications.py'
       - 'scripts/sync_orcid_publications.py'
   # 2. Run automatically every Monday at 08:00 UTC to fetch new papers from ORCID
@@ -55,7 +55,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add files/RMFUENTES.bib _publications/ _data/cv.json
+          git add files/RMurga.bib _publications/ _data/cv.json
           if git diff --cached --quiet; then
             echo "No publication changes to commit."
           else

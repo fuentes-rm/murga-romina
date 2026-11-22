@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "People & Collaborations"
+description: "Academic collaborations and undergraduate thesis supervision of Romina F. Murga across Chile, Spain, and France."
 permalink: /people/
 author_profile: true
 ---
@@ -93,180 +94,134 @@ author_profile: true
 </style>
 
 <p class="people-intro">
-  My research in robust control, sampled-data systems, and power electronics is carried out in active collaboration with researchers across <strong>Chile</strong>, <strong>Brazil</strong>, and the <strong>United Kingdom</strong>, alongside co-supervising undergraduate engineering theses.
+  My research in sustainable mineral processing, polymeric and biodegradable nanoreagents, and interfacial chemistry is conducted in collaboration with academic teams across <strong>Chile</strong>, <strong>Spain</strong>, and <strong>France</strong>, alongside mentoring undergraduate engineering theses.
 </p>
 
-Thesis Supervision
+Thesis Supervision &amp; Mentoring
 ======
 <div class="people-grid">
   <div class="student-card">
-    <div class="person-name">Emilia Leyton Figueroa</div>
-    <div><span class="person-role">B.S. Thesis Co-Supervision (2024)</span></div>
-    <div class="person-affil">Mechatronics Engineering — University of Talca, Chile</div>
-    <div class="student-thesis">"Análisis del Desempeño de un Controlador Estático de Realimentación de Salida Robusto para Convertidores Buck-Boost"</div>
-    <div style="font-size: 0.8em; opacity: 0.85;">Co-advised with Prof. Jonathan M. Palma</div>
-  </div>
-
-  <div class="student-card">
-    <div class="person-name">Jeremy Rojas</div>
-    <div><span class="person-role">B.S. Thesis Co-Supervision (2023)</span></div>
-    <div class="person-affil">Mechatronics Engineering — University of Talca, Chile</div>
-    <div class="student-thesis">"Control LMI para canal de agua"</div>
-    <div style="font-size: 0.8em; opacity: 0.85;">Co-advised with Prof. Jonathan M. Palma</div>
+    <div class="person-name">Consuelo Albornoz</div>
+    <div><span class="person-role">B.S. Thesis Co-Advisor (2024)</span></div>
+    <div class="person-affil">Mining Civil Engineering — University of Talca, Chile</div>
+    <div class="student-thesis">"Evaluación de las nanopartículas de poliestireno como agente colector para la flotación de calcopirita en agua de mar"</div>
+    <div style="font-size: 0.8em; opacity: 0.85;">Undergraduate Engineering Thesis (<em>Coorientadora</em>)</div>
   </div>
 </div>
 
-International Research Network
+International &amp; National Research Network
 ======
 
 <h3 class="country-heading">🇨🇱 Chile</h3>
 <div class="people-grid">
   <div class="person-card">
     <div>
-      <div class="person-name">Dr. Jonathan M. Palma</div>
-      <span class="person-role">M.S. &amp; Ph.D. Advisor</span>
-      <div class="person-affil">University of Talca, Curicó, Chile<br><small>Laboratory of Automated Systems</small></div>
+      <div class="person-name">Dr. Lina Uribe</div>
+      <span class="person-role">Ph.D. Advisor</span>
+      <div class="person-affil">University of Talca, Curicó, Chile<br><small>Department of Mining Engineering &amp; CRHIAM</small></div>
     </div>
     <div class="person-links">
-      <a href="https://orcid.org/0000-0002-3924-1907" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
-      <a href="{{ base_path }}/publications/?q=Palma" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
+      <a href="https://orcid.org/0000-0002-5716-7755" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
+      <a href="{{ base_path }}/publications/?q=Uribe" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
     </div>
   </div>
 
   <div class="person-card">
     <div>
-      <div class="person-name">Dr. Carlos R. Baier</div>
+      <div class="person-name">Dr. Leopoldo Gutiérrez</div>
       <span class="person-role">Research Collaborator</span>
-      <div class="person-affil">University of Talca, Curicó, Chile<br><small>Power Electronics &amp; Energy Conversion</small></div>
+      <div class="person-affil">University of Concepción (UdeC), Chile<br><small>Department of Metallurgical Engineering &amp; CRHIAM</small></div>
     </div>
     <div class="person-links">
-      <a href="https://orcid.org/0000-0002-1752-1625" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
-      <a href="{{ base_path }}/publications/?q=Baier" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
+      <a href="https://orcid.org/0000-0002-0065-2178" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
+      <a href="{{ base_path }}/publications/?q=Gutierrez" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
     </div>
   </div>
 
   <div class="person-card">
     <div>
-      <div class="person-name">M.Sc. Esteban I. Marciel</div>
+      <div class="person-name">Dr. John Amalraj</div>
       <span class="person-role">Research Collaborator</span>
-      <div class="person-affil">University of Talca, Curicó, Chile<br><small>Power Converters &amp; Microgrids</small></div>
+      <div class="person-affil">University of Talca, Talca, Chile<br><small>Institute of Natural Resources Chemistry</small></div>
     </div>
     <div class="person-links">
-      <a href="https://orcid.org/0000-0002-7641-0319" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
-      <a href="{{ base_path }}/publications/?q=Marciel" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
+      <a href="https://orcid.org/0000-0003-1872-5133" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
+      <a href="{{ base_path }}/publications/?q=Amalraj" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
     </div>
   </div>
 
   <div class="person-card">
     <div>
-      <div class="person-name">Dr. Alejandro J. Rojas</div>
+      <div class="person-name">Dr. Juan David Giraldo</div>
       <span class="person-role">Research Collaborator</span>
-      <div class="person-affil">University of Concepción (UdeC), Concepción, Chile<br><small>Networked &amp; Robust Control</small></div>
+      <div class="person-affil">Universidad Austral de Chile, Chile<br><small>Biopolymers &amp; Macromolecular Chemistry</small></div>
     </div>
     <div class="person-links">
-      <a href="https://orcid.org/0000-0002-3867-6909" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
+      <a href="https://orcid.org/0000-0002-4339-8536" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
+      <a href="{{ base_path }}/publications/?q=Giraldo" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
+    </div>
+  </div>
+
+  <div class="person-card">
+    <div>
+      <div class="person-name">Dr. Olga Rubilar</div>
+      <span class="person-role">Research Collaborator</span>
+      <div class="person-affil">Universidad de La Frontera (UFRO), Chile<br><small>Environmental Biotechnology &amp; CRHIAM</small></div>
+    </div>
+    <div class="person-links">
+      <a href="{{ base_path }}/publications/?q=Rubilar" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
+    </div>
+  </div>
+
+  <div class="person-card">
+    <div>
+      <div class="person-name">Camila Rodríguez</div>
+      <span class="person-role">Research Collaborator</span>
+      <div class="person-affil">University of Talca &amp; CRHIAM, Chile<br><small>Nanoreagents &amp; Sulfide Flotation</small></div>
+    </div>
+    <div class="person-links">
+      <a href="{{ base_path }}/publications/?q=Rodriguez" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
+    </div>
+  </div>
+
+  <div class="person-card">
+    <div>
+      <div class="person-name">Dr. Dennis Vega-García</div>
+      <span class="person-role">Research Collaborator</span>
+      <div class="person-affil">University of Concepción (UdeC), Chile<br><small>Department of Metallurgical Engineering</small></div>
+    </div>
+    <div class="person-links">
+      <a href="https://orcid.org/0000-0002-9194-1951" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
+      <a href="{{ base_path }}/publications/?q=Vega-Garcia" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
     </div>
   </div>
 </div>
 
-<h3 class="country-heading">🇬🇧 United Kingdom</h3>
+<h3 class="country-heading">🇪🇸 Spain</h3>
 <div class="people-grid">
   <div class="person-card">
     <div>
-      <div class="person-name">Dr. Márcio J. Lacerda</div>
-      <span class="person-role">M.S. &amp; Ph.D. Co-Advisor</span>
-      <div class="person-affil">London Metropolitan University, London, UK<br><small>Reader in Control Engineering &amp; CPS</small></div>
+      <div class="person-name">Dr. Manuel Carmona Franco</div>
+      <span class="person-role">Visiting Stay Host &amp; Collaborator</span>
+      <div class="person-affil">Universidad de Castilla-La Mancha (UCLM), Ciudad Real, Spain<br><small>Institute of Chemical and Environmental Technology (Centro ITQUIMA)</small></div>
     </div>
     <div class="person-links">
-      <a href="https://lacerdamj.github.io/" target="_blank" rel="noopener" class="person-btn"><i class="fas fa-globe"></i> Website</a>
-      <a href="{{ base_path }}/publications/?q=Lacerda" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <div>
-      <div class="person-name">Dr. Marco Rivera</div>
-      <span class="person-role">Research Collaborator</span>
-      <div class="person-affil">University of Nottingham, UK<br><small>Power Electronics, Machines &amp; Control</small></div>
-    </div>
-    <div class="person-links">
-      <a href="https://orcid.org/0000-0002-4353-2088" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
-      <a href="{{ base_path }}/publications/?q=Rivera" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
+      <a href="https://orcid.org/0000-0002-1464-5067" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
+      <a href="{{ base_path }}/publications/?q=Carmona" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
     </div>
   </div>
 </div>
 
-<h3 class="country-heading">🇧🇷 Brazil</h3>
+<h3 class="country-heading">🇫🇷 France</h3>
 <div class="people-grid">
   <div class="person-card">
     <div>
-      <div class="person-name">Dr. Ricardo C. L. F. Oliveira</div>
-      <span class="person-role">Research Collaborator</span>
-      <div class="person-affil">University of Campinas (UNICAMP), SP, Brazil<br><small>School of Electrical &amp; Computer Engineering</small></div>
+      <div class="person-name">Lorraine Laboratory of Molecular Chemistry (L2CM)</div>
+      <span class="person-role">Visiting Research Host (2026)</span>
+      <div class="person-affil">Université de Lorraine &amp; CNRS, Nancy, France<br><small>Adsorption Isotherms &amp; Molecular Dynamics Modeling</small></div>
     </div>
     <div class="person-links">
-      <a href="https://orcid.org/0000-0002-8225-7058" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
-      <a href="{{ base_path }}/publications/?q=Oliveira" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <div>
-      <div class="person-name">Dr. Cecilia F. Morais</div>
-      <span class="person-role">Research Collaborator</span>
-      <div class="person-affil">University of Campinas (UNICAMP), SP, Brazil<br><small>School of Electrical &amp; Computer Engineering</small></div>
-    </div>
-    <div class="person-links">
-      <a href="https://orcid.org/0000-0002-9994-0339" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
-      <a href="{{ base_path }}/publications/?q=Morais" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <div>
-      <div class="person-name">Dr. Gabriela W. Gabriel</div>
-      <span class="person-role">Research Collaborator</span>
-      <div class="person-affil">Aeronautics Institute of Technology (ITA), SP, Brazil<br><small>Sampled-Data &amp; Hybrid Control Systems</small></div>
-    </div>
-    <div class="person-links">
-      <a href="https://orcid.org/0000-0001-5631-9270" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
-      <a href="{{ base_path }}/publications/?q=Gabriel" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <div>
-      <div class="person-name">Dr. André M. de Oliveira</div>
-      <span class="person-role">Research Collaborator</span>
-      <div class="person-affil">Federal University of São Paulo (UNIFESP), Brazil<br><small>Institute of Science and Technology</small></div>
-    </div>
-    <div class="person-links">
-      <a href="https://orcid.org/0000-0003-4351-3896" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
-      <a href="{{ base_path }}/publications/?q=de+Oliveira" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <div>
-      <div class="person-name">Dr. João M. Gomes da Silva Jr.</div>
-      <span class="person-role">Research Collaborator</span>
-      <div class="person-affil">Federal University of Rio Grande do Sul (UFRGS), Brazil<br><small>Department of Electrical Systems &amp; Control</small></div>
-    </div>
-    <div class="person-links">
-      <a href="https://orcid.org/0000-0001-9528-6969" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
-      <a href="{{ base_path }}/publications/?q=Gomes+da+Silva" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <div>
-      <div class="person-name">M.Sc. Marcelo Aravena</div>
-      <span class="person-role">Research Collaborator</span>
-      <div class="person-affil">University of Campinas (UNICAMP), SP, Brazil</div>
-    </div>
-    <div class="person-links">
-      <a href="https://orcid.org/0009-0003-1766-4452" target="_blank" rel="noopener" class="person-btn"><i class="ai ai-orcid"></i> ORCID</a>
+      <a href="https://l2cm.univ-lorraine.fr/" target="_blank" rel="noopener" class="person-btn"><i class="fas fa-globe"></i> Laboratory</a>
     </div>
   </div>
 </div>
-

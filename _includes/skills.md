@@ -1,11 +1,8 @@
-* **Main (AMS Mathematics Subject Classification — 93-XX Systems theory; control)**:
-    * **93B36** — H∞-control and H₂ synthesis
-    * **93C05** — Linear systems in control theory (LTI / LPV)
-    * **93C30** — Control/observation systems governed by functional relations other than differential equations (sampled-data, hybrid, and switching systems)
-    * **93D09** — Robust stability and D-stability
-    * **93E03** — Stochastic systems, general (Markov jump linear systems)
-    * **93E15** — Stochastic stability
-* **Complementary & Applied Domains**:
-    * **93C85** — Automated systems (autonomous vehicles, robotics) in control theory
-    * **93C95** — Control of specific systems (DC–DC converters, three-phase grid-supporting inverters)
-    * **Applications** — Renewable & photovoltaic energy systems, electrical microgrids, and automated transport systems
+* **Primary Research Lines**:
+  * **Mineral Processing**: Froth flotation of copper, molybdenum, and iron sulfides in continental water, seawater, and clay-bearing ores.
+  * **Polymeric & Biodegradable Nanoparticles**: Synthesis, surface functionalization, and scalability of sustainable nanocollectors and biopolymeric depressants.
+  * **Materials Development & Surface Chemistry**: Physicochemical, spectroscopic, and electrokinetic characterization of mineral–reagent interfaces.
+  * **Process Simulation**: Modeling and optimization of metallurgical and mineral beneficiation circuits.
+* **Complementary Research Lines**:
+  * **Molecular Dynamics**: Atomistic modeling and adsorption isotherm analysis of polymer–mineral interactions.
+  * **Renewable Energy & Process Automation**: Sustainable engineering systems and instrumentation.

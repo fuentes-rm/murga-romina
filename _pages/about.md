@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Roberto M. Fuentes received the B.S. and M.S. degrees in Engineering Science (Mechatronics Engineering) at the [University of Talca](https://www.utalca.cl), Curicó, Chile, in 2021 and 2023, respectively. He is currently pursuing a Ph.D. in Engineering Systems at the University of Talca, under the supervision of Prof. [Jonathan M. Palma](https://orcid.org/0000-0002-3924-1907) and co-supervision of Prof. [Márcio J. Lacerda](https://lacerdamj.github.io) ([London Metropolitan University](https://www.londonmet.ac.uk)).
+{% include base_path %}
 
-His research focuses on the mathematical formulation of convex synthesis conditions via **Linear Matrix Inequalities (LMIs)** and **Differential LMIs (DLMIs)** for uncertain dynamical systems, bridging theoretical control guarantees with real-time **Hardware-in-the-Loop (HIL)** and power electronics applications.
+Romina F. Murga received the B.S. degree in Engineering Science and the professional degree of Mining Civil Engineer at the [University of Talca](https://www.utalca.cl), Curicó, Chile, in 2022. She is currently pursuing a Ph.D. in Engineering Systems at the University of Talca, under the supervision of Prof. [Lina Uribe](https://orcid.org/0000-0002-5716-7755), and conducts her doctoral research in association with the [Water Research Center for Agriculture and Mining (CRHIAM)](https://www.crhiam.cl).
+
+Her research focuses on the synthesis, functionalization, and interfacial evaluation of **polymeric and biodegradable nanoparticles** and **biopolymers** for **mineral processing**, developing selective and environmentally sustainable collectors and depressants for copper, molybdenum, and iron sulfide **froth flotation** in seawater and clay-bearing mineral systems.
 
 <style>
   .research-grid {
@@ -40,35 +42,34 @@ Research Thrusts
 ======
 <div class="research-grid">
   <div class="research-card">
-    <h3><i class="fas fa-wave-square" aria-hidden="true"></i> Sampled-Data &amp; Hybrid Systems</h3>
-    <p>Stability analysis, digital redesign, and constant reference tracking for uncertain sampled-data systems using Differential Linear Matrix Inequalities (DLMIs) and purely discrete-time PID frameworks.</p>
+    <h3><i class="fas fa-atom" aria-hidden="true"></i> Polymeric &amp; Biodegradable Nanoreagents</h3>
+    <p>Design, synthesis, functionalization, and scalability of polystyrene, cellulose, and nanocrystal collectors and depressants tailored for selective sulfide mineral flotation.</p>
   </div>
   <div class="research-card">
-    <h3><i class="fas fa-sliders" aria-hidden="true"></i> Robust &amp; Gain-Scheduled Control</h3>
-    <p>H₂ and H∞ dynamic output-feedback synthesis, D-stability regional pole placement, Linear Parameter-Varying (LPV) systems, and Markov jump linear systems (MJLS).</p>
+    <h3><i class="fas fa-water" aria-hidden="true"></i> Seawater &amp; Clay-Bearing Flotation</h3>
+    <p>Mitigation of deleterious slime coating caused by swelling clays (montmorillonite) and selective Cu–Mo–Fe sulfide separation using green biopolymers in seawater circuits.</p>
   </div>
   <div class="research-card">
-    <h3><i class="fas fa-bolt" aria-hidden="true"></i> Power Electronics &amp; Microgrids</h3>
-    <p>Control of DC–DC power converters, grid-supporting three-phase inverters, photovoltaic systems, and autonomous vehicle platoons under cyber-physical constraints and HIL validation.</p>
+    <h3><i class="fas fa-microscope" aria-hidden="true"></i> Surface Chemistry &amp; Molecular Simulation</h3>
+    <p>Electrokinetic, spectroscopic, and wettability characterization (DLS, zeta potential, ATR-FTIR, UV-Vis, contact angle) combined with adsorption isotherms and molecular dynamics modeling.</p>
   </div>
 </div>
 
 Latest Milestones
 ======
-* **2026 November** I am glad to announce our newly published article titled ["Pure digital dynamic output feedback for uncertain aperiodic sampled-data systems"](https://doi.org/10.1016/j.nahs.2026.101799) in collaboration with Ricardo C. L. F. Oliveira, João M. Gomes da Silva Jr., and Jonathan M. Palma in the peer-reviewed journal _Nonlinear Analysis: Hybrid Systems_.
-* **2026 May** I started a visiting research stay at [London Metropolitan University](https://www.londonmet.ac.uk). The supervisor for my visit is Prof. [Márcio J. Lacerda](https://lacerdamj.github.io), my Ph.D. co-advisor. I will remain here until the end of June 2026.
-* **2026 March** I am glad to announce our recently published article titled ["H₂ gain-scheduling dynamic output-feedback with D-stability applied to electronic systems"](https://doi.org/10.1016/j.conengprac.2026.106881) in collaboration with Sergio A. Valdivia, Esteban I. Marciel, Carlos R. Baier, Cecilia F. Morais, and Jonathan M. Palma in the peer-reviewed journal _Control Engineering Practice_. 
-* **2026 February** I am glad to announce our recently published article titled ["Constant reference tracking control for uncertain linear sampled-data systems"](https://doi.org/10.1016/j.nahs.2025.101651) in collaboration with Gabriela W. Gabriel, André M. de Oliveira, and Jonathan M. Palma in the peer-reviewed journal _Nonlinear Analysis: Hybrid Systems_. 
-* **2026 January** I successfully qualified for my doctoral program.
-* **2025 October** Our paper titled ["Reference tracking in sampled-data systems: a DLMI-based purely-discrete PID framework"](https://doi.org/10.1109/CHILECON66915.2025.11476329), elaborated with André M. de Oliveira, Gabriela W. Gabriel, Márcio J. Lacerda, and Jonathan M. Palma, was presented at the _2025 IEEE CHILEAN Conference on Electrical, Electronics Engineering, Information and Communication Technologies (CHILECON)_, held in Valparaíso, Chile.
-* **2025 August** I am glad to announce our recently published article titled ["A new convex approach for grid-supporting inverter control based on DLMIs"](https://doi.org/10.1109/TII.2025.3598523) in collaboration with Esteban I. Marciel, Carlos R. Baier, Gabriela W. Gabriel, Cecilia F. Morais, Márcio J. Lacerda, and Jonathan M. Palma in the peer-reviewed journal _IEEE Transactions on Industrial Informatics_. 
+* **2026 November** Published our first-author article titled ["Feasibility of using guar gum as a pyrite depressant in chalcopyrite flotation with seawater"](https://doi.org/10.1016/j.rineng.2026.113996) in collaboration with Lina Uribe, Manuel Carmona Franco, Leopoldo Gutiérrez, and Juan D. Giraldo in _Results in Engineering_.
+* **2026 July** Published our article titled ["Influence of cationic nanocrystals on the flotation recovery of molybdenum, copper, and iron sulfides"](https://doi.org/10.1016/j.mineng.2026.110706) with Camila Rodríguez, Leopoldo Gutiérrez, and Lina Uribe in _Minerals Engineering_.
+* **2026 July** Served as a **Technical Program Committee Member** and co-authored two conference contributions at the _22nd International Conference on Mineral Processing and Geometallurgy (Procemin-GEOMET 2026)_ in Santiago, Chile.
+* **2026 April–July** Completed a visiting research stay at the **Lorraine Laboratory of Molecular Chemistry (L2CM), [Université de Lorraine](https://www.univ-lorraine.fr/)** (Nancy, France), developing adsorption isotherm analyses and molecular dynamics models supported by a Scholarship from the Embassy of France.
+* **2024 September–December** Completed a visiting research stay at **Centro ITQUIMA, [Universidad de Castilla-La Mancha](https://www.uclm.es/)** (Ciudad Real, Spain), focusing on polymeric nanoparticle synthesis and process scalability under a University of Talca Internationalization Scholarship.
+* **2024 June** Published ["On the Use of Styrene-Based Nanoparticles to Mitigate the Effect of Montmorillonite in Copper Sulfide Recovery by Flotation"](https://doi.org/10.3390/polym16121682) in _Polymers_ and joined **ANID Fondecyt Regular Grant 1241212** as a Doctoral Researcher.
 
 Selected Journal Publications
 ======
-* **Fuentes, R. M., Oliveira, R. C. L. F., Gomes da Silva Jr., J. M., & Palma, J. M.** (2026). *"Pure digital dynamic output feedback for uncertain aperiodic sampled-data systems."* **Nonlinear Analysis: Hybrid Systems**, 62, 101799. [[DOI]](https://doi.org/10.1016/j.nahs.2026.101799)
-* **Valdivia, S. A., Fuentes, R. M., Marciel, E. I., Baier, C. R., Morais, C. F., & Palma, J. M.** (2026). *"H₂ gain-scheduling dynamic output-feedback with D-stability applied to electronic systems."* **Control Engineering Practice**, 172, 106881. [[DOI]](https://doi.org/10.1016/j.conengprac.2026.106881)
-* **Fuentes, R. M., Gabriel, G. W., de Oliveira, A. M., & Palma, J. M.** (2026). *"Constant reference tracking control for uncertain linear sampled-data systems."* **Nonlinear Analysis: Hybrid Systems**, 59, 101651. [[DOI]](https://doi.org/10.1016/j.nahs.2025.101651) [[PDF]](/files/constant-reference-tracking.pdf)
-* **Fuentes, R. M., Marciel, E. I., Baier, C. R., Gabriel, G. W., Morais, C. F., Lacerda, M. J., & Palma, J. M.** (2025). *"A New Convex Approach for Grid-Supporting Inverter Control Based on DLMIs."* **IEEE Transactions on Industrial Informatics**, 21(12), 9631–9642. [[DOI]](https://doi.org/10.1109/TII.2025.3598523) [[PDF]](/files/new-convex-approach.pdf)
-* **Fuentes, R. M., Lacerda, M. J., Morais, C. F., Oliveira, R. C. L. F., & Palma, J. M.** (2024). *"H∞ gain-scheduled dynamic output feedback control with transient performance applied to electrical microgrid."* **Journal of the Franklin Institute**, 361(7), 106704. [[DOI]](https://doi.org/10.1016/j.jfranklin.2024.106704) [[PDF]](/files/h-infinity-gain-scheduled.pdf)
+* **Murga, R., Uribe, L., Carmona Franco, M., Gutiérrez, L., & Giraldo, J. D.** (2026). *"Feasibility of using guar gum as a pyrite depressant in chalcopyrite flotation with seawater."* **Results in Engineering**, 32, 113996. [[DOI]](https://doi.org/10.1016/j.rineng.2026.113996)
+* **Rodríguez, C., Murga, R., Gutiérrez, L., & Uribe, L.** (2026). *"Influence of cationic nanocrystals on the flotation recovery of molybdenum, copper, and iron sulfides."* **Minerals Engineering**, 249, 110706. [[DOI]](https://doi.org/10.1016/j.mineng.2026.110706)
+* **Estrada, D., Murga, R., Rubilar, O., Amalraj, J., Gutiérrez, L., & Uribe, L.** (2024). *"On the Use of Styrene-Based Nanoparticles to Mitigate the Effect of Montmorillonite in Copper Sulfide Recovery by Flotation."* **Polymers**, 16(12), 1682. [[DOI]](https://doi.org/10.3390/polym16121682)
+* **Murga, R., Rodríguez, C., Amalraj, J., Vega-Garcia, D., Gutiérrez, L., & Uribe, L.** (2022). *"Use of Polystyrene Nanoparticles as Collectors in the Flotation of Chalcopyrite."* **Polymers**, 14(23), 5259. [[DOI]](https://doi.org/10.3390/polym14235259)
+* **Quiroz, C., Murga, R., Giraldo, J. D., Gutiérrez, L., & Uribe, L.** (2022). *"Understanding the Interaction of Lignosulfonates for the Separation of Molybdenite and Chalcopyrite in Seawater Flotation Processes."* **Polymers**, 14(14), 2834. [[DOI]](https://doi.org/10.3390/polym14142834)
 
-<p style="margin-top: 1em;"><a href="/publications/" class="btn btn--primary">View Full List of Publications &rarr;</a></p>
+<p style="margin-top: 1em;"><a href="{{ base_path }}/publications/" class="btn btn--primary">View Full List of Publications &rarr;</a></p>

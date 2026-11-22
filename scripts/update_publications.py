@@ -49,7 +49,7 @@ def format_authors(author_field):
     authors = clean_text(author_field).split(' and ')
     formatted_authors = []
     for author in authors:
-        if 'Fuentes' in author:
+        if 'Murga' in author:
             formatted_authors.append(f'<strong>{author.strip()}</strong>')
         else:
             formatted_authors.append(author.strip())
@@ -155,17 +155,20 @@ def normalize_doi_url(doi_raw, url_raw):
 
 def infer_topic(title, venue):
     text = f"{title} {venue}".lower()
-    if any(k in text for k in ['sampled-data', 'dlmi', 'packet']):
-        return 'sampled-data'
-    if any(k in text for k in ['gain-schedul', 'lpv', 'd-stability', 'metaheuristic', 'lqr']):
-        return 'gain-scheduling'
-    if any(k in text for k in ['solar', 'photovoltaic', 'mppt', 'agrifood', 'greenhouse']):
-        return 'solar-energy'
-    return 'control-applications'
+    tags = []
+    if any(k in text for k in ['nanoparticle', 'nanocrystal', 'polystyrene', 'styrene']):
+        tags.append('nanomaterials')
+    if any(k in text for k in ['guar gum', 'lignosulfonate', 'cellulose', 'depressant']):
+        tags.append('biopolymers')
+    if any(k in text for k in ['seawater', 'montmorillonite', 'clay']):
+        tags.append('seawater-clay')
+    if not tags:
+        tags.append('flotation')
+    return ' '.join(tags)
 
 
 def build_clean_bibtex(entry, entry_type, title, venue, year, doi_clean):
-    cite_id = entry.get('ID', f"fuentes_{year}")
+    cite_id = entry.get('ID', f"murga_{year}")
     authors_raw = clean_text(entry.get('author', '')).replace('\\"', '"')
     clean_title = title.replace('\\"', '"')
     clean_venue = venue.replace('\\"', '"')
@@ -182,9 +185,11 @@ def build_clean_bibtex(entry, entry_type, title, venue, year, doi_clean):
         lines.append(f"  number = {{{clean_text(entry.get('number'))}}},")
     if entry.get('pages'):
         lines.append(f"  pages = {{{clean_text(entry.get('pages'))}}},")
-    lines.append(f"  year = {{{year}}},")
     if doi_clean:
+        lines.append(f"  year = {{{year}}},")
         lines.append(f"  doi = {{{doi_clean}}}")
+    else:
+        lines.append(f"  year = {{{year}}}")
     lines.append("}")
     return "\n".join(lines)
 
@@ -194,7 +199,7 @@ def yaml_single_quote(val):
 
 
 def main():
-    bib_file_path = 'files/RMFUENTES.bib'
+    bib_file_path = 'files/RMurga.bib'
     pub_dir = '_publications/'
 
     os.makedirs(pub_dir, exist_ok=True)

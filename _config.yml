@@ -9,41 +9,40 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Roberto M. Fuentes - Researcher"
+title                    : "Romina F. Murga - Researcher"
 title_separator          : "-"
-name                     : &name "Roberto M. Fuentes"
-description              : &description "Academic portfolio of Roberto M. Fuentes — Researcher in Control Theory, Uncertain Sampled-Data Systems, and Markov Jump Linear Systems at the University of Talca."
-url                      : https://fuentes-rm.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "fuentes-rm/fuentes-rm.github.io"
+name                     : &name "Romina F. Murga"
+description              : &description "Academic portfolio and CV of Romina Francisca Murga Moraga — Ph.D. Candidate in Engineering Systems at the University of Talca researching polymeric and biodegradable nanoparticles for mineral processing and froth flotation."
+url                      : # Leave blank for portable URLs; change baseurl to "" if moved to a root domain
+baseurl                  : "/romina-murga" # subpath for project repository deployment
+repository               : ""
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
-  name             : "Roberto M. Fuentes Albornoz"
-  pronouns         : # example: "she/her"  
-  bio              : "Researcher in Control Theory and its application"
-  location         : "Curicó, Chile"
+  avatar           : "profile.svg"
+  name             : "Romina Francisca Murga Moraga"
+  pronouns         : # example: "she/her"
+  bio              : "Ph.D. Candidate in Engineering Systems • Mineral Processing & Nanomaterials"
+  location         : "San Clemente, Maule, Chile"
   employer         : "University of Talca"
   uri              : # URL
-  email            : "rfuentesalbornoz@gmail.com" 
+  email            : "romina.murga@utalca.cl"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=_kNbNSsAAAAJ"
+  googlescholar    : # URL
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0002-1310-9780"
+  orcid            : "https://orcid.org/0009-0007-8573-9996"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
-  researchgate     : "https://www.researchgate.net/profile/Roberto-Fuentes-Albornoz"
-  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=55454216700"
+  researchgate     : # URL
+  scopus           : # URL
   zotero           : # URL
 
 
@@ -51,7 +50,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "fuentes-rm"
+  github           : # Username
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -66,7 +65,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "romina-murga-20179b229"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -81,6 +80,7 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -179,17 +179,23 @@ exclude:
   - CHANGELOG
   - Capfile
   - config
+  - CONTRIBUTING.md
   - Dockerfile
+  - docker-compose.yaml
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
   - Rakefile
   - README
+  - README.md
+  - scripts
+  - talkmap.py
   - tmp
   - vendor
 keep_files:

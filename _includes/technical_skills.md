@@ -1,5 +1,5 @@
-* **Scientific Computing & Optimization**: MATLAB, Simulink, YALMIP, LMI Lab, SeDuMi, MOSEK, Python.
-* **Real-Time Validation & Embedded Control**: Hardware-in-the-Loop (HIL) simulation, Digital Signal Processors (DSPs), Programmable Logic Controllers (PLCs / Ladder), Arduino.
-* **Academic Publishing & Versioning**: LaTeX / BibTeX, Git, Markdown / Jekyll.
-* **Professional Memberships**: Student Member, Institute of Electrical and Electronics Engineers (IEEE).
-* **Languages**: Spanish (Native), English (Academic & Professional Working Proficiency).
+* **Mining, Simulation & CAD Software**: Maptek Vulcan, MineSight, Arena Simulation, AutoCAD.
+* **Programming, Prototyping & Scientific Publishing**: C++, Arduino, LaTeX / BibLaTeX, Adobe Illustrator.
+* **Experimental & Analytical Characterization**: Microflotation, Dynamic & Electrophoretic Light Scattering (DLS / Zeta Potential — Litesizer), ATR-FTIR & UV-Vis Spectroscopy, Contact Angle Goniometry, Turbidity & Colloidal Stability Analysis.
+* **Core Competencies**: Leadership, self-management, strong scientific vocation, and problem-solving drive.
+* **Languages**: Spanish (Native), English (Advanced — C1).

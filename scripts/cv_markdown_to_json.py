@@ -85,7 +85,7 @@ def extract_author_info(config):
             "address": "",
             "postalCode": "",
             "city": "",
-            "countryCode": "US",
+            "countryCode": "CL",
             "region": ""
         },
         "profiles": []

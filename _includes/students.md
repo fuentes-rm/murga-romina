@@ -1,4 +1,2 @@
-<!-- Agrega tus alumnos aquí en el siguiente formato: -->
 * **Undergraduate Thesis Co-Supervision**:
-    * **Emilia Leyton Figueroa** — Mechatronics Engineering, University of Talca (2024). Thesis: *"Análisis del Desempeño de un Controlador Estático de Realimentación de Salida Robusto para Convertidores Buck-Boost"*. Co-advisor with Prof. Jonathan M. Palma.
-    * **Jeremy Rojas** — Mechatronics Engineering, University of Talca (2023). Thesis: *"Control LMI para canal de agua"*. Co-advisor with Prof. Jonathan M. Palma.
+  * **Consuelo Albornoz** — Mining Civil Engineering, University of Talca (2024). Thesis: *"Evaluación de las nanopartículas de poliestireno como agente colector para la flotación de calcopirita en agua de mar"* (*Evaluation of polystyrene nanoparticles as a collector agent for chalcopyrite flotation in seawater*). Role: **Co-Advisor** (*Coorientadora*).

@@ -36,9 +36,9 @@
     {% endif %}
     {% if post.venue %}
     <p class="archive__item-excerpt" itemprop="description">
-      {{ post.citation | replace: "<strong>Fuentes, Roberto M.</strong>", "<strong style='text-decoration: underline; text-underline-offset: 2px;'>Fuentes, Roberto M.</strong>" }}
+      {{ post.citation | replace: "<strong>Murga, Romina</strong>", "<strong style='text-decoration: underline; text-underline-offset: 2px;'>Murga, Romina</strong>" }}
       {% if post.paperurl and post.paperurl != "#" %}
-      &nbsp;<a href="{{ post.paperurl }}" target="_blank" rel="noopener">[DOI]</a>
+      &nbsp;<a href="{{ post.paperurl }}" target="_blank" rel="noopener">{% if post.doi %}[DOI]{% else %}[Link]{% endif %}</a>
       {% endif %}
       {% if post.pdfurl %}
       &nbsp;<a href="{{ base_path }}{{ post.pdfurl }}" target="_blank" rel="noopener">[PDF]</a>

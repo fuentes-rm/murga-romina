@@ -1,7 +1,8 @@
 ---
 layout: cv-print
 permalink: /cv-export/
-title: "Curriculum Vitae - Roberto M. Fuentes"
+title: "Curriculum Vitae"
+description: "Printable Curriculum Vitae of Romina Francisca Murga Moraga — Ph.D. Candidate in Engineering Systems at the University of Talca."
 ---
 
 {% include base_path %}
@@ -18,32 +19,37 @@ title: "Curriculum Vitae - Roberto M. Fuentes"
         <h1>{{ site.author.name | upcase }}</h1>
         <div class="cv-contact">
             <i class="fas fa-envelope"></i> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-            <span class="cv-contact-sep">•</span>
+            <span class="cv-contact-sep">&bull;</span>
             <i class="fas fa-building-columns"></i> {{ site.author.employer }}
-            <span class="cv-contact-sep">•</span>
+            <span class="cv-contact-sep">&bull;</span>
             <i class="fas fa-location-dot"></i> {{ site.author.location }}
         </div>
+        {% assign profile_links = "" | split: "" %}
+        {% if site.author.linkedin %}
+          {% capture plink %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>{% endcapture %}
+          {% assign profile_links = profile_links | push: plink %}
+        {% endif %}
+        {% if site.author.orcid %}
+          {% capture plink %}<a href="{{ site.author.orcid }}" title="ORCID"><i class="ai ai-orcid"></i> ORCID</a>{% endcapture %}
+          {% assign profile_links = profile_links | push: plink %}
+        {% endif %}
+        {% if site.author.googlescholar %}
+          {% capture plink %}<a href="{{ site.author.googlescholar }}" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>{% endcapture %}
+          {% assign profile_links = profile_links | push: plink %}
+        {% endif %}
+        {% if site.author.scopus %}
+          {% capture plink %}<a href="{{ site.author.scopus }}" title="Scopus"><i class="ai ai-scopus"></i> Scopus</a>{% endcapture %}
+          {% assign profile_links = profile_links | push: plink %}
+        {% endif %}
+        {% if site.author.researchgate %}
+          {% capture plink %}<a href="{{ site.author.researchgate }}" title="ResearchGate"><i class="fab fa-researchgate"></i> ResearchGate</a>{% endcapture %}
+          {% assign profile_links = profile_links | push: plink %}
+        {% endif %}
+        {% if profile_links.size > 0 %}
         <div class="cv-contact" style="margin-top: 6px;">
-            {% if site.author.orcid %}
-            <a href="{{ site.author.orcid }}" title="ORCID"><i class="ai ai-orcid"></i> ORCID</a>
-            <span class="cv-contact-sep">|</span>
-            {% endif %}
-            {% if site.author.googlescholar %}
-            <a href="{{ site.author.googlescholar }}" title="Google Scholar"><i class="ai ai-google-scholar"></i> Google Scholar</a>
-            <span class="cv-contact-sep">|</span>
-            {% endif %}
-            {% if site.author.scopus %}
-            <a href="{{ site.author.scopus }}" title="Scopus"><i class="ai ai-scopus"></i> Scopus</a>
-            <span class="cv-contact-sep">|</span>
-            {% endif %}
-            {% if site.author.researchgate %}
-            <a href="{{ site.author.researchgate }}" title="ResearchGate"><i class="fab fa-researchgate"></i> ResearchGate</a>
-            <span class="cv-contact-sep">|</span>
-            {% endif %}
-            {% if site.author.github %}
-            <a href="https://{{ site.author.github }}.github.io" title="Website"><i class="fas fa-globe"></i> {{ site.author.github }}.github.io</a>
-            {% endif %}
+            {{ profile_links | join: ' <span class="cv-contact-sep">|</span> ' }}
         </div>
+        {% endif %}
     </div>
 
     <!-- Education -->
@@ -54,20 +60,12 @@ title: "Curriculum Vitae - Roberto M. Fuentes"
         {{ edu_content | markdownify }}
     </div>
 
-    <!-- Visiting Research Stays -->
+    <!-- Research Areas -->
     <div class="cv-section">
-        <h2 class="cv-section-title">Visiting Research Stays</h2>
+        <h2 class="cv-section-title">Research Lines</h2>
         <hr class="cv-section-hr">
-        {% capture stays_content %}{% include research_stays.md %}{% endcapture %}
-        {{ stays_content | markdownify }}
-    </div>
-
-    <!-- Work Experience -->
-    <div class="cv-section">
-        <h2 class="cv-section-title">Work Experience</h2>
-        <hr class="cv-section-hr">
-        {% capture work_content %}{% include work_experience.md %}{% endcapture %}
-        {{ work_content | markdownify }}
+        {% capture skills_content %}{% include skills.md %}{% endcapture %}
+        {{ skills_content | markdownify }}
     </div>
 
     <!-- Teaching Experience -->
@@ -78,28 +76,36 @@ title: "Curriculum Vitae - Roberto M. Fuentes"
         {{ teaching_content | markdownify }}
     </div>
 
+    <!-- Research Grants & Projects -->
+    <div class="cv-section">
+        <h2 class="cv-section-title">Research Grants &amp; Projects</h2>
+        <hr class="cv-section-hr">
+        {% capture projects_content %}{% include research_projects.md %}{% endcapture %}
+        {{ projects_content | markdownify }}
+    </div>
+
+    <!-- Visiting Research Stays -->
+    <div class="cv-section">
+        <h2 class="cv-section-title">International Visiting Research Stays</h2>
+        <hr class="cv-section-hr">
+        {% capture stays_content %}{% include research_stays.md %}{% endcapture %}
+        {{ stays_content | markdownify }}
+    </div>
+
     <!-- Thesis Supervision -->
     <div class="cv-section">
-        <h2 class="cv-section-title">Thesis Supervision</h2>
+        <h2 class="cv-section-title">Thesis Supervision &amp; Mentoring</h2>
         <hr class="cv-section-hr">
         {% capture students_content %}{% include students.md %}{% endcapture %}
         {{ students_content | markdownify }}
     </div>
 
-    <!-- Research Areas -->
+    <!-- Professional Service & Outreach -->
     <div class="cv-section">
-        <h2 class="cv-section-title">Research Areas</h2>
+        <h2 class="cv-section-title">Professional Service &amp; Outreach</h2>
         <hr class="cv-section-hr">
-        {% capture skills_content %}{% include skills.md %}{% endcapture %}
-        {{ skills_content | markdownify }}
-    </div>
-
-    <!-- Technical Skills & Languages -->
-    <div class="cv-section">
-        <h2 class="cv-section-title">Technical Skills &amp; Languages</h2>
-        <hr class="cv-section-hr">
-        {% capture tech_content %}{% include technical_skills.md %}{% endcapture %}
-        {{ tech_content | markdownify }}
+        {% capture service_content %}{% include service_outreach.md %}{% endcapture %}
+        {{ service_content | markdownify }}
     </div>
 
     <!-- Contributions to Research (Publications) -->
@@ -116,13 +122,9 @@ title: "Curriculum Vitae - Roberto M. Fuentes"
             {% for post in cat_pubs reversed %}
             <li class="cv-pub-item">
                 {% if post.citation %}
-                {{ post.citation | replace: "<strong>", "" | replace: "</strong>", "" | replace: "Fuentes, Roberto M.",
-                "<strong>Fuentes, R. M.</strong>" | replace: "Fuentes, Roberto M",
-                "<strong>Fuentes, R. M.</strong>" | replace: "Fuentes, R. M.", "<strong>Fuentes, R. M.</strong>" |
-                replace: "Fuentes, Roberto", "<strong>Fuentes, R. M.</strong>" |
-                replace: "<i>", "<span class='cv-pub-venue'>" | replace: "</i>", "</span>" }}
+                {{ post.citation | replace: "<strong>", "" | replace: "</strong>", "" | replace: "Murga, Romina", "<strong>Murga, R.</strong>" | replace: "Murga, R.", "<strong>Murga, R.</strong>" | replace: "<i>", "<span class='cv-pub-venue'>" | replace: "</i>", "</span>" }}
                 {% else %}
-                <strong>Fuentes, R. M.</strong> et al. "<span class="cv-pub-title">{{ post.title }}</span>". <span
+                <strong>Murga, R.</strong> et al. "<span class="cv-pub-title">{{ post.title }}</span>". <span
                     class="cv-pub-venue">{{ post.venue }}</span> <strong>{{ post.date | date: "%Y" }}</strong>.
                 {% endif %}
                 {% if post.doi %}
@@ -141,19 +143,28 @@ title: "Curriculum Vitae - Roberto M. Fuentes"
         {% endif %}
     </div>
 
+    <!-- Industrial & Laboratory Experience -->
+    <div class="cv-section">
+        <h2 class="cv-section-title">Industrial &amp; Laboratory Experience</h2>
+        <hr class="cv-section-hr">
+        {% capture work_content %}{% include work_experience.md %}{% endcapture %}
+        {{ work_content | markdownify }}
+    </div>
+
+    <!-- Technical Skills & Languages -->
+    <div class="cv-section">
+        <h2 class="cv-section-title">Technical Skills &amp; Languages</h2>
+        <hr class="cv-section-hr">
+        {% capture tech_content %}{% include technical_skills.md %}{% endcapture %}
+        {{ tech_content | markdownify }}
+    </div>
+
     <!-- Collaborators -->
     <div class="cv-section">
         <h2 class="cv-section-title">Academic Collaborators</h2>
         <hr class="cv-section-hr">
         {% capture collab_content %}{% include collaborators.md %}{% endcapture %}
         {{ collab_content | markdownify }}
-    </div>
-
-    <!-- Personal References -->
-    <div class="cv-section">
-        <h2 class="cv-section-title">Personal References</h2>
-        <hr class="cv-section-hr">
-        {% include references.md %}
     </div>
 
 </div>

@@ -1,19 +1,27 @@
 ---
 title: "University of Talca"
 collection: teaching
-type: "Doctoral courses (Teaching Assistant)"
-permalink: /teaching/University-of-Talca
+type: "Undergraduate Courses (Laboratory Instructor)"
+permalink: /teaching/University-of-Talca/
 venue: "University of Talca, Faculty of Engineering"
-date: 2026-03-01
+date: 2022-03-01
 location: "Curicó, Chile"
 ---
 
-At this institution, I participated as a Teaching Assistant in the following doctoral courses:
+Between 2022 and 2024, I served as a Laboratory Instructor (*Docente de Laboratorio*) in the School of Mining Civil Engineering at the University of Talca, instructing undergraduate laboratory modules across the extractive metallurgy and mineral processing curriculum:
 
-Control Robusto de Sistemas Inciertos
+Flotación (Froth Flotation)
 ======
-This doctoral course introduces the modeling, analysis, and design of robust controllers and filters for uncertain continuous, discrete, and impulsive hybrid systems. The curriculum covers polytopic and norm-bounded uncertainties, time-varying systems (LTV/LPV) with scheduled gain for dynamic controllers, and suitable Lyapunov functions for each system class. Additional advanced topics include invariant sets in dynamics, stochastic stability, and robust model predictive control (RMPC). The course effectively bridges theoretical rigor with reproducible computational implementation using tools such as MATLAB, YALMIP, SeDuMi, and MOSEK.
+Laboratory module focused on physicochemical separation of sulfide minerals, pulp conditioning, reagent schemes (collectors, frothers, and depressants), microflotation and batch flotation testing, kinetic recovery analysis, and metallurgical mass balances.
 
-Diseño de Sistemas de Control por Medio de Desigualdades Matriciales Lineales
+Procesamiento de Minerales (Mineral Processing)
 ======
-This course provides advanced training in the analysis and design of controllers and filters using Linear Matrix Inequalities (LMIs), articulating rigorous theoretical foundations with computational practice in positive semidefinite programming. The syllabus covers the formalization of stability and performance problems in continuous and discrete time through Lyapunov functions and matrix equivalences, such as the Schur complement. It thoroughly explores H₂ and H∞ synthesis for state and output feedback, robust control against polytopic or norm-bounded uncertainties, and time-varying (LTV/LPV) systems. Students also learn practical guidelines for numerical conditioning, validation, and traceability of results using MATLAB and YALMIP.
+Practical training in ore sampling, granulometric characterization, crushing and grinding comminution laws, Bond grindability testing, classification, and solid–liquid separation processes.
+
+Hidrometalurgia Avanzada (Advanced Hydrometallurgy)
+======
+Experimental sessions covering acid/alkaline leaching kinetics, thermodynamic stability in aqueous systems, solvent extraction (SX), and electrowinning (EW) processes for copper metallurgy.
+
+Fundamentos de Metalurgia (Fundamentals of Metallurgy)
+======
+Introductory laboratory course in physical and extractive metallurgy, mineral characterization techniques, stoichiometric and metallurgical balances, and experimental safety standards.

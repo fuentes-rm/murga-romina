@@ -17,29 +17,29 @@ Education
 ======
 {% include education.md %}
 
-Visiting Research Stays
+Research Lines
+======
+{% include skills.md %}
+
+Research Grants & Projects
+======
+{% include research_projects.md %}
+
+International Visiting Research Stays
 ======
 {% include research_stays.md %}
-
-Work Experience
-======
-{% include work_experience.md %}
 
 Teaching Experience
 ======
 {% include teaching_cv.md %}
 
-Thesis Supervision
+Thesis Supervision & Mentoring
 ======
 {% include students.md %}
-  
-Research Interests
-======
-{% include skills.md %}
 
-Technical Skills & Languages
+Professional Service & Outreach
 ======
-{% include technical_skills.md %}
+{% include service_outreach.md %}
 
 Publications
 ======
@@ -62,11 +62,15 @@ Publications
 {% endfor %}
 </ol>
 {% endif %}
-  
-Collaborators
+
+Industrial & Laboratory Experience
+======
+{% include work_experience.md %}
+
+Technical Skills & Languages
+======
+{% include technical_skills.md %}
+
+Academic Collaborators
 ======
 {% include collaborators.md %}
-
-Personal References
-======
-{% include references.md %}

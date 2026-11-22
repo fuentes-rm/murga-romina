@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Synchronize publications from ORCID (and Crossref/DOI metadata) into files/RMFUENTES.bib,
+Synchronize publications from ORCID (and Crossref/DOI metadata) into files/RMurga.bib,
 then regenerate _publications/*.md and _data/cv.json.
 
 Usage:
@@ -19,8 +19,8 @@ from pathlib import Path
 
 from update_publications import clean_text, load_bib_entries, normalize_doi_url, slugify
 
-ORCID_ID_DEFAULT = "0000-0002-1310-9780"
-BIB_FILE_PATH = "files/RMFUENTES.bib"
+ORCID_ID_DEFAULT = "0009-0007-8573-9996"
+BIB_FILE_PATH = "files/RMurga.bib"
 
 
 def get_orcid_from_config(config_path="_config.yml"):
@@ -34,7 +34,7 @@ def get_orcid_from_config(config_path="_config.yml"):
 
 
 def http_get_json(url, headers=None):
-    req_headers = {"User-Agent": "fuentes-rm.github.io-sync/1.0 (mailto:rfuentesalbornoz@gmail.com)"}
+    req_headers = {"User-Agent": "romina-murga-cv-sync/1.0 (mailto:romina.murga@utalca.cl)"}
     if headers:
         req_headers.update(headers)
     req = urllib.request.Request(url, headers=req_headers)
@@ -49,7 +49,7 @@ def fetch_bibtex_from_doi(doi):
         url,
         headers={
             "Accept": "application/x-bibtex; charset=utf-8",
-            "User-Agent": "fuentes-rm.github.io-sync/1.0 (mailto:rfuentesalbornoz@gmail.com)",
+            "User-Agent": "romina-murga-cv-sync/1.0 (mailto:romina.murga@utalca.cl)",
         },
     )
     try:
@@ -103,11 +103,11 @@ def build_bibtex_from_orcid_work(work_detail, doi):
         if credit_name:
             authors.append(credit_name.strip())
     if not authors:
-        authors = ["Fuentes, Roberto M."]
+        authors = ["Murga, Romina"]
     author_str = " and ".join(authors)
 
     slug = slugify(title)[:20].replace("-", "_")
-    cite_key = f"fuentes_{slug}_{year}"
+    cite_key = f"murga_{slug}_{year}"
     doi_field = f"\tdoi = {{{doi}}},\n\turl = {{https://doi.org/{doi}}},\n" if doi else ""
 
     lines = [
