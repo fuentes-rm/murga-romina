@@ -175,17 +175,6 @@ International &amp; National Research Network
 
   <div class="person-card">
     <div>
-      <div class="person-name">Camila Rodríguez</div>
-      <span class="person-role">Research Collaborator</span>
-      <div class="person-affil">University of Talca &amp; CRHIAM, Chile<br><small>Nanoreagents &amp; Sulfide Flotation</small></div>
-    </div>
-    <div class="person-links">
-      <a href="{{ base_path }}/publications/?q=Rodriguez" class="person-btn"><i class="fas fa-book-open"></i> Joint Papers</a>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <div>
       <div class="person-name">Dr. Dennis Vega-García</div>
       <span class="person-role">Research Collaborator</span>
       <div class="person-affil">University of Concepción (UdeC), Chile<br><small>Department of Metallurgical Engineering</small></div>
