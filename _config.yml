@@ -1,3 +1,4 @@
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -14,7 +15,7 @@ title_separator          : "-"
 name                     : &name "Romina F. Murga"
 description              : &description "Academic portfolio and CV of Romina Francisca Murga Moraga — Ph.D. Candidate in Engineering Systems at the University of Talca researching polymeric and biodegradable nanoparticles for mineral processing and froth flotation."
 url                      : # Leave blank for portable URLs; change baseurl to "" if moved to a root domain
-baseurl                  : "/romina-murga" # subpath for project repository deployment
+baseurl                  : "" # subpath for project repository deployment
 repository               : ""
 
 # Site Author - The following control what appear as part of the author content on the side bar.
