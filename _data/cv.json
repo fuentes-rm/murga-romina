@@ -1,0 +1,96 @@
+{
+  "basics": {
+    "name": "Romina Francisca Murga Moraga",
+    "email": "romina.murga@utalca.cl",
+    "phone": "",
+    "website": null,
+    "summary": "Currently employed at University of Talca. Ph.D. Candidate in Engineering Systems \u2022 Mineral Processing & Nanomaterials",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "San Clemente, Maule, Chile",
+      "countryCode": "CL",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "ORCID",
+        "username": "",
+        "url": "https://orcid.org/0009-0007-8573-9996"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "romina-murga-20179b229",
+        "url": "https://www.linkedin.com/in/romina-murga-20179b229"
+      }
+    ]
+  },
+  "work": [],
+  "education": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "publications": [
+    {
+      "name": "Understanding the Interaction of Lignosulfonates for the Separation of Molybdenite and Chalcopyrite in Seawater Flotation Processes",
+      "publisher": "Polymers",
+      "releaseDate": "2022-07-01",
+      "website": "https://doi.org/10.3390/polym14142834",
+      "summary": "The selective separation of molybdenite from copper sulfide concentrate in flotation processes is commonly carried out using sodium hydrosulfide (NaHS) to depress chalcopyrite and permit only the flotation of molybdenite..."
+    },
+    {
+      "name": "Use of Polystyrene Nanoparticles as Collectors in the Flotation of Chalcopyrite",
+      "publisher": "Polymers",
+      "releaseDate": "2022-12-01",
+      "website": "https://doi.org/10.3390/polym14235259",
+      "summary": "This study proposes the use of polymeric nanoparticles (NPs) as collectors for copper sulfide flotation. The experimental phase included the preparation of two types of polystyrene-based NPs: St-CTAB and St-CTAB-VI. Thes..."
+    },
+    {
+      "name": "On the Use of Styrene-Based Nanoparticles to Mitigate the Effect of Montmorillonite in Copper Sulfide Recovery by Flotation",
+      "publisher": "Polymers",
+      "releaseDate": "2024-06-01",
+      "website": "https://doi.org/10.3390/polym16121682",
+      "summary": "Clay minerals have different negative effects on the froth flotation process such as low adsorption of collectors on valuable minerals, increased pulp viscosity, and the reduction in recovery and grade concentrates of co..."
+    },
+    {
+      "name": "Evaluation of the Depressant Effect of Cationic Nanoparticles on the Flotation of Mo, Cu and Fe",
+      "publisher": "Proceedings of the 22nd International Conference on Mineral Processing and Geometallurgy (Procemin-GEOMET 2026)",
+      "releaseDate": "2026-07-01",
+      "website": "https://gecamin.com/procemin.geomet/2026/",
+      "summary": "Experimental assessment of cationic polymeric and biopolymeric nanoparticles on the selective flotation and depression behavior of molybdenum, copper, and iron sulfide minerals, presented at Procemin-GEOMET 2026 in Santi..."
+    },
+    {
+      "name": "Feasibility of using guar gum as a pyrite depressant in chalcopyrite flotation with seawater",
+      "publisher": "Results in Engineering",
+      "releaseDate": "2026-11-01",
+      "website": "https://doi.org/10.1016/j.rineng.2026.113996",
+      "summary": "Guar gum (GG) was evaluated as a depressant of pyrite and chalcopyrite in the presence of potassium amyl xanthate (PAX) as collector and methyl isobutyl carbinol (MIBC) as a frothing agent. The interaction of this biopol..."
+    },
+    {
+      "name": "HAC Cellulose Nanoparticles as Depressant of Pyrite in the Flotation of Cu-Mo Sulfide Ores",
+      "publisher": "Proceedings of the 22nd International Conference on Mineral Processing and Geometallurgy (Procemin-GEOMET 2026)",
+      "releaseDate": "2026-07-01",
+      "website": "https://gecamin.com/procemin.geomet/2026/",
+      "summary": "Evaluation of functionalized cellulose nanoparticles (HAC) as a selective biodegradable depressant for pyrite in the froth flotation of copper-molybdenum sulfide ores, presented at Procemin-GEOMET 2026 in Santiago, Chile..."
+    },
+    {
+      "name": "Influence of cationic nanocrystals on the flotation recovery of molybdenum, copper, and iron sulfides",
+      "publisher": "Minerals Engineering",
+      "releaseDate": "2026-07-01",
+      "website": "https://doi.org/10.1016/j.mineng.2026.110706",
+      "summary": "This study investigates the influence of functionalized cationic nanocrystals on the selective flotation recovery and surface interactions of molybdenum, copper, and iron sulfide minerals (molybdenite, chalcopyrite, and ..."
+    }
+  ],
+  "presentations": [],
+  "teaching": [
+    {
+      "course": "University of Talca",
+      "institution": "University of Talca, Faculty of Engineering",
+      "date": "2022-03-01",
+      "role": "Undergraduate Courses (Laboratory Instructor)",
+      "description": ""
+    }
+  ],
+  "portfolio": []
+}

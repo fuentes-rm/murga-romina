@@ -1,0 +1,76 @@
+---
+layout: archive
+title: "Curriculum Vitae"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+{% include base_path %}
+
+<div style="text-align: right; margin-bottom: 2em;">
+  <a href="{{ base_path }}/cv-export/" target="_blank" class="btn btn--primary btn--large"><i class="fas fa-file-pdf"></i> Download CV (PDF)</a>
+</div>
+
+Education
+======
+{% include education.md %}
+
+Research Lines
+======
+{% include skills.md %}
+
+Research Grants & Projects
+======
+{% include research_projects.md %}
+
+International Visiting Research Stays
+======
+{% include research_stays.md %}
+
+Teaching Experience
+======
+{% include teaching_cv.md %}
+
+Thesis Supervision & Mentoring
+======
+{% include students.md %}
+
+Professional Service & Outreach
+======
+{% include service_outreach.md %}
+
+Publications
+======
+{% if site.publication_category %}
+{% for category in site.publication_category %}
+{% assign cat_pubs = site.publications | where: "category", category[0] %}
+{% if cat_pubs.size > 0 %}
+<h3 style="margin-top: 1em; margin-bottom: 0.5em;">{{ category[1].title }}</h3>
+<ol reversed start="{{ cat_pubs.size }}" style="margin-top: 0;">
+{% for post in cat_pubs reversed %}
+{% include archive-single-cv.html %}
+{% endfor %}
+</ol>
+{% endif %}
+{% endfor %}
+{% else %}
+<ol reversed start="{{ site.publications.size }}">
+{% for post in site.publications reversed %}
+{% include archive-single-cv.html %}
+{% endfor %}
+</ol>
+{% endif %}
+
+Industrial & Laboratory Experience
+======
+{% include work_experience.md %}
+
+Technical Skills & Languages
+======
+{% include technical_skills.md %}
+
+Academic Collaborators
+======
+{% include collaborators.md %}
